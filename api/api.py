@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 # Chemin local du modèle
-model_path = "/Users/ashleyratier/Desktop/modele"
+model_path = "SOUMI23/generator_question_barthez"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Chargement du modèle et du tokenizer
